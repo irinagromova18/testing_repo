@@ -19,7 +19,7 @@ struct User {
 class TableViewController: UIViewController {
     private let users: [User] = [ User(firstName: "Ирина", middleName: "Олеговна", lastName: "Громова", position: "Разработчик", address: "Санкт-Петербург, ул. Литейная, д. 2"), User(firstName: "Андрей", middleName: "Александрович", lastName: "Иванов", position: "Менеджер", address: "Уфа, ул. Островского, д. 5/1"),
         User(firstName: "Геннадий", middleName: "Петрович", lastName: "Букин", position: "Директор", address: "Тверь, ул. Лесная, д. 4"),
-        User(firstName: "Виктория", middleName: "Владимировна", lastName: "Шаталина", position: "Старший менеджер", address: "Москва, ул. Ленина, д. 47"),
+        User(firstName: "Татьяна", middleName: "Владимировна", lastName: "Григорьева", position: "Старший менеджер", address: "Москва, ул. Ленина, д. 47"),
     ]
 
     private lazy var tableView: UITableView = {

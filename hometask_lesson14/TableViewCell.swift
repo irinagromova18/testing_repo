@@ -17,7 +17,7 @@ class TableViewCell: UITableViewCell {
     
     lazy var button: UIButton = {
         let button = UIButton(type: .system)
-        button.setTitle("Подробнее", for:.normal)
+        button.setTitle("Данные сотрудника", for:.normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 16)
         button.tintColor = .white
         return button
@@ -42,7 +42,6 @@ class TableViewCell: UITableViewCell {
         NSLayoutConstraint.activate([
             button.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -8),
             button.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -20),
-            button.widthAnchor.constraint(equalToConstant: 90),
             button.heightAnchor.constraint(equalToConstant: 40)
                 ])
         
